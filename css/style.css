@@ -76,10 +76,18 @@
   
   .circle {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: calc(50% - 60px);
   }
   
+  .icon {
+    position: relative;
+    padding: 2%;
+    max-width: 50px;  
+    margin: auto;
+    
+  }
+
   .stroke {
     stroke: white;
     stroke-dasharray: 360;
@@ -96,3 +104,7 @@
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
   }
+
+  :root { ul li {
+    list-style: none;
+  } }
