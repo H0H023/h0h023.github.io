@@ -46,3 +46,7 @@
 :root { h1 {
     margin-bottom: 0%;
 } }
+
+.header {
+    margin-top: 25px;
+}
