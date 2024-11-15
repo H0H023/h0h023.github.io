@@ -1,6 +1,6 @@
 
   .card_container {
-    position: relative;
+    position: sticky;
     height: 350px;
     width: 700px;
     top: 60px;
